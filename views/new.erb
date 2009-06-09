@@ -1,7 +1,21 @@
 <h2>Add a new host</h2>
 <form action="/hosts/create" method="post">
-  <label for="host">Address of your memcached host</label>
-  <input type="text" name="host[address]" id="host">  
+  <p>
+    <label for="hostname">SSH hostname of your memcached host</label>
+    <input type="text" name="host[hostname]" id="hostname">  
+  </p>
+  <p>
+    <label for="port">SSH port for your memcached host</label>
+    <input type="text" name="host[port]" id="port">
+  </p>
+  <p>
+    <label for="username">SSH username for your memcached host</label>
+    <input type="text" name="host[username]" id="username">
+  </p>
+  <p>
+    <label for="password">SSH password for your memcached host</label>
+    <input type="text" name="host[password]" id="password">
+  </p>
   
   <button>Add host</button>
 </form>

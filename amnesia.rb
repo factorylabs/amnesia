@@ -7,6 +7,7 @@ require 'yaml'
 require 'sinatra'
 require 'dm-core'
 require 'memcache' # memcache-client
+require 'net/ssh'
 require 'active_support'
 require 'gchart' # gchart, on github
 
